@@ -1,0 +1,46 @@
+*{
+     box-sizing: border-box;
+}
+
+
+.font-1{
+     font-family: 'Raleway', sans-serif;
+     font-weight: bold;
+}
+.font-2{
+     font-family: 'My Soul', cursive;
+}
+
+html,body{
+     height: 100vh;
+     width: 100%;
+}
+
+.home{
+     height: 100vh;
+     width: 100%;
+     background-image: linear-gradient(
+          rgba(0,0,0,0.5),
+          rgba(0,0,0,0.5)
+
+     ),url(img/3.jpg);
+     background-position: center;
+     background-size: cover;
+
+}
+
+.button a{
+     text-decoration: none;
+     border: 2px solid #00b44b;
+     background-color: #00b44b;
+     padding: 7px 29px;
+     color: white;
+}
+
+.socal-media a{
+     transition: 0.2s;
+}
+
+.socal-media a:hover{
+     transform: scale(1.5);
+}
